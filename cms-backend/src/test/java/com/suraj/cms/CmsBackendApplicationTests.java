@@ -1,10 +1,10 @@
-package com.suraj.clinic.cms;
+package com.suraj.cms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BackendApplicationTests {
+class CmsBackendApplicationTests {
 
     @Test
     void contextLoads() {
