@@ -1,0 +1,27 @@
+#Remaining for future purpose:
+    1. rememberme might be added, later, don't add for now
+
+id (Primary key auto generated)
+email
+passwordHash
+firstName
+lastName
+middleName
+role(Create enum : ADMIN, SUPER_ADMIN, RECEPTIONIST, PATIENT, OTHER_STAFF, DOCTOR)
+gender (Create ENUM: MALE, FEMALE, OTHER, PREFER_NOT_TO_SAY)
+profilePictureUrl
+status (Create Enum : PENDING, VERIFIED, ACTIVE, SUSPENDED, TERMINATED) default is PENDING
+emailVerified (Boolean) default = false
+twoFactgorEnabled (Boolean) default = false # IF 2 factor enabled then we will be sending the email.
+lastLoginAt
+lastLoginIp (String,45) - IPv4/IPv6
+lastLoginDevice
+failedLoginAttempts
+lockedUntil
+passwordChangedAt
+createdBy
+updatedBy
+createdAt
+updatedAt
+deletedAt
+
